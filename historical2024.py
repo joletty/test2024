@@ -13,7 +13,7 @@ def main():
     df = pd.read_csv('2024_europe.csv')
     df_v = pd.read_csv('2024_vwap.csv')
     
-    chart = StreamlitChart(width=300, height=550)
+    chart = StreamlitChart(width=1000, height=700)
 
     chart.legend(visible=True)
 
